@@ -170,8 +170,8 @@ const initCameraStream = (
     video: {
       deviceId: videoSourceDeviceId ? { exact: videoSourceDeviceId } : undefined,
       facingMode: currentFacingMode,
-      width: { ideal: 1920 },
-      height: { ideal: 1920 },
+      width: { min: 1920 },
+      height: { min: 1920 },
     },
   };
 
